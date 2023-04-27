@@ -103,52 +103,77 @@ p.concept {
   height: 45px;
 }
 
+/* chapitre 1*/
 #voiture {
   width: 100vw;
   height: 100vh;
   background-image: url(../img/vincent/ciel.png);
   background-position: center center;
   background-size: cover;
+  position: relative;
 }
 
+.route {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
+
+.car {
+  position: absolute;
+  width: 35vh;
+  height: auto;
+  bottom: 20vh;
+}
+
+/* chapitre 2*/
 #mongolfiert {
   width: 100vw;
   height: 100vh;
   background-image: url(../img/vincent/ciel.png);
   background-position: center center;
   background-size: cover;
+  position: relative;
 }
 
+/* chapitre 3*/
 #mongolfiert-plui {
   width: 100vw;
   height: 100vh;
   background-image: url(../img/nicolas/Weather_sky_01.png);
   background-position: center center;
   background-size: cover;
+  position: relative;
 }
 
+/*chapitre 4*/
 #bateau {
   width: 100vw;
   height: 100vh;
   background-image: url(../img/vincent/ciel.png);
   background-position: center center;
   background-size: cover;
+  position: relative;
 }
 
+/* chapitre 5*/
 #sous-marin {
   width: 100vw;
   height: 100vh;
   background-image: url(../img/nicolas/plongee.png);
   background-size: cover;
   background-position: center bottom;
+  position: relative;
 }
 
+/* chapitre 6*/
 #fusee {
   width: 100vw;
   height: 100vh;
   background-image: url(../img/nicolas/Space_sky_01.png);
   background-position: center center;
   background-size: cover;
+  position: relative;
 }
 
 /*animation sprite sheet*/
