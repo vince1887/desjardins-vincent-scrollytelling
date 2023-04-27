@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --orange: #f59d3d;
+  --creme: #fff1e5;
+  --vert: #6f7642;
+  --rouge: #dc452d;
+  --bleu: #aaadc5;
+}
+
+@font-face {
+  src: url("../font/LoveYaLikeASisterSolid.ttf") format("truetype");
+  font-family: "sister-solid";
+}
+
+@font-face {
+  src: url("../font/LoveYaLikeASister.ttf") format("truetype");
+  font-family: "sister";
+}
+
+@font-face {
+  src: url("../font/Rubik-Italic-VariableFont_wght.ttf") format("truetype");
+  font-family: "rubik-italic";
+}
+
+@font-face {
+  src: url("../font/Rubik-VariableFont_wght.ttf") format("truetype");
+  font-family: "rubik";
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  height: 105vh;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/vincent/ciel.png);
+  margin: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+}
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-top: 40px;
+  padding-left: 28px;
+  padding-right: 28px;
+  text-align: center;
+  font-size: 11vw;
+  color: var(--orange);
+  font-family: "sister";
+}
+
+h2 {
+  color: var(--creme);
+  font-family: "rubik";
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  font-size: 2vw;
+}
+
+p.concept {
+  font-family: "rubik";
+  font-size: 11px;
+  color: var(--creme);
+  text-align: center;
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll-down {
+  font-family: "rubik";
+  font-size: 11px;
+  color: var(--creme);
+  text-align: center;
+}
+.arrow {
+  width: 50px;
+  height: 45px;
+}
+
+#voiture {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/vincent/ciel.png);
+  background-position: center center;
+  background-size: cover;
+}
+
+#mongolfiert {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/vincent/ciel.png);
+  background-position: center center;
+  background-size: cover;
+}
+
+#mongolfiert-plui {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/nicolas/Weather_sky_01.png);
+  background-position: center center;
+  background-size: cover;
+}
+
+#bateau {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/vincent/ciel.png);
+  background-position: center center;
+  background-size: cover;
+}
+
+#sous-marin {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/nicolas/plongee.png);
+  background-size: cover;
+  background-position: center bottom;
+}
+
+#fusee {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/nicolas/Space_sky_01.png);
+  background-position: center center;
+  background-size: cover;
+}
+
+/*animation sprite sheet*/
+.plui {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/vincent/plui_sprite-sheet.png);
+  background-size: cover;
+  animation-name: plui;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(8);
+  animation-play-state: paused;
+}
+
+body.is-scrolling .plui {
+  animation-play-state: running;
+}
+
+@keyframes plui {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -950vw 0;
+  }
+}
+/* animation sprite sheet*/
