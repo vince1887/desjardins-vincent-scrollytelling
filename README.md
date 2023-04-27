@@ -12,5 +12,5 @@
 * HTML
 * CSS
 * JavaScript
-* librairie [d'animation GSAP](https://greensock.com/gsap/)
+* Librairie [d'animation GSAP](https://greensock.com/gsap/)
 * Plugiciel [ScrollTrigger](https://greensock.com/scrolltrigger/)
