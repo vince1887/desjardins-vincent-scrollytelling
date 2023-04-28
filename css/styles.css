@@ -76,6 +76,19 @@ h2 {
   font-size: 2vw;
 }
 
+h3 {
+  margin-top: 0;
+  margin-bottom: 3px;
+  font-family: "sister-solid";
+  color: var(--orange);
+}
+
+p {
+  font-family: "rubik";
+  color: var(--creme);
+  margin-top: 2px;
+}
+
 p.concept {
   font-family: "rubik";
   font-size: 11px;
@@ -126,6 +139,14 @@ p.concept {
   bottom: 20vh;
 }
 
+.text-chapitre-1 {
+  position: absolute;
+  width: 25vw;
+  text-align: right;
+  right: 50px;
+  top: 75px;
+}
+
 /* chapitre 2*/
 #mongolfiert {
   width: 100vw;
@@ -134,6 +155,39 @@ p.concept {
   background-position: center center;
   background-size: cover;
   position: relative;
+}
+
+.mongolfiert {
+  position: absolute;
+  width: 45vh;
+  height: auto;
+  right: 16vw;
+  top: 25vh;
+}
+
+.nuage-1 {
+  position: absolute;
+}
+
+.nuage-2 {
+  position: absolute;
+  left: 25vw;
+  bottom: 10px;
+  width: 700px;
+}
+
+.nuage-3 {
+  position: absolute;
+  right: 5vw;
+  top: 15vh;
+}
+
+.text-chapitre-2 {
+  position: absolute;
+  width: 25vw;
+  text-align: left;
+  left: 50px;
+  bottom: 75px;
 }
 
 /* chapitre 3*/
@@ -146,6 +200,14 @@ p.concept {
   position: relative;
 }
 
+.text-chapitre-3 {
+  position: absolute;
+  width: 25vw;
+  text-align: right;
+  right: 50px;
+  top: 75px;
+}
+
 /*chapitre 4*/
 #bateau {
   width: 100vw;
@@ -154,6 +216,34 @@ p.concept {
   background-position: center center;
   background-size: cover;
   position: relative;
+}
+
+.bateau {
+  position: absolute;
+  width: 45vh;
+  height: auto;
+  bottom: 25vh;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.vague-1 {
+  position: absolute;
+}
+
+.vague-2 {
+  position: absolute;
+  left: -15%;
+  bottom: -65%;
+  transform: rotateY(180deg) rotateZ(-5deg);
+}
+
+.text-chapitre-4 {
+  position: absolute;
+  width: 25vw;
+  text-align: right;
+  right: 50px;
+  top: 75px;
 }
 
 /* chapitre 5*/
@@ -166,6 +256,22 @@ p.concept {
   position: relative;
 }
 
+.sous-marin {
+  position: absolute;
+  width: 30vw;
+  height: auto;
+  top: 35%;
+  right: 15px;
+}
+
+.text-chapitre-5 {
+  position: absolute;
+  width: 25vw;
+  text-align: left;
+  left: 50px;
+  top: 75px;
+}
+
 /* chapitre 6*/
 #fusee {
   width: 100vw;
@@ -174,6 +280,39 @@ p.concept {
   background-position: center center;
   background-size: cover;
   position: relative;
+}
+
+.fusee {
+  position: absolute;
+  width: 35vh;
+  height: auto;
+  top: 35%;
+  left: 5%;
+  transform: rotateZ(25deg);
+}
+
+.planet-1 {
+  position: absolute;
+  width: 15%;
+  height: auto;
+  top: 5vh;
+  left: 7vw;
+}
+
+.planet-2 {
+  position: absolute;
+  width: 55%;
+  height: auto;
+  bottom: 15vh;
+  right: -9vw;
+}
+
+.text-chapitre-6 {
+  position: absolute;
+  width: 25vw;
+  text-align: left;
+  left: 50px;
+  bottom: 75px;
 }
 
 /*animation sprite sheet*/
