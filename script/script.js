@@ -1,3 +1,4 @@
+//animation call to action //
 gsap.from(".arrow", {
   repeat: -1,
   yoyo: true,
@@ -12,7 +13,6 @@ gsap.from(".scroll-down", {
 });
 
 //spritesheet test javascript//
-
 let Timer;
 
 function Scrolling() {
@@ -24,3 +24,75 @@ function Scrolling() {
 }
 
 window.addEventListener("scroll", Scrolling);
+
+//animation nuage-1
+
+gsap.from(".nuage-1", {
+  repeat: -1,
+  x: "10%",
+  duration: 4,
+  ease: "back",
+  yoyo: true,
+});
+
+gsap.from(".nuage-1", {
+  repeat: -1,
+  y: "-5%",
+  duration: 7,
+  ease: "back",
+  yoyo: true,
+});
+
+//animation nuage-2
+
+gsap.from(".nuage-2", {
+  repeat: -1,
+  x: "-7%",
+  duration: 6,
+  ease: "back",
+  yoyo: true,
+});
+
+gsap.from(".nuage-2", {
+  repeat: -1,
+  y: "4%",
+  duration: 5,
+  ease: "back",
+  yoyo: true,
+});
+
+//animation nuage-3
+
+gsap.from(".nuage-3", {
+  repeat: -1,
+  x: "-15%",
+  duration: 9,
+  ease: "slow",
+  yoyo: true,
+});
+
+gsap.from(".nuage-3", {
+  repeat: -1,
+  y: "6%",
+  duration: 5,
+  ease: "circ",
+  yoyo: true,
+});
+
+//animation timeline des planetes
+
+gsap.from(".planet-1", {
+  repeat: -1,
+  y: "14%",
+  duration: 5,
+  ease: "circ",
+  yoyo: true,
+});
+
+gsap.from(".planet-2", {
+  repeat: -1,
+  y: "25%",
+  duration: 6,
+  ease: "circ",
+  yoyo: true,
+});
