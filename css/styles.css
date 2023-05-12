@@ -124,6 +124,7 @@ p.concept {
   background-position: center center;
   background-size: cover;
   position: relative;
+  border: #dc452d solid 2px;
 }
 
 .route {
@@ -155,6 +156,7 @@ p.concept {
   background-position: center center;
   background-size: cover;
   position: relative;
+  border: #dc452d solid 2px;
 }
 
 .mongolfiert {
@@ -198,6 +200,7 @@ p.concept {
   background-position: center center;
   background-size: cover;
   position: relative;
+  border: #dc452d solid 2px;
 }
 
 .text-chapitre-3 {
@@ -216,6 +219,7 @@ p.concept {
   background-position: center center;
   background-size: cover;
   position: relative;
+  border: #dc452d solid 2px;
 }
 
 .bateau {
@@ -254,6 +258,7 @@ p.concept {
   background-size: cover;
   background-position: center bottom;
   position: relative;
+  border: #dc452d solid 2px;
 }
 
 .sous-marin {
@@ -280,6 +285,7 @@ p.concept {
   background-position: center center;
   background-size: cover;
   position: relative;
+  border: #dc452d solid 2px;
 }
 
 .fusee {

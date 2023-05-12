@@ -25,6 +25,8 @@ function Scrolling() {
 
 window.addEventListener("scroll", Scrolling);
 
+//animation-chapitre 1
+
 //animation nuage-1
 
 gsap.from(".nuage-1", {
