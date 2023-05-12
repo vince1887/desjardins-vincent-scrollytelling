@@ -125,7 +125,6 @@ p.concept {
   background-position: center center;
   background-size: cover;
   position: relative;
-  border: #dc452d solid 2px;
 }
 
 .route {
@@ -169,7 +168,6 @@ svg {
   background-position: center center;
   background-size: cover;
   position: relative;
-  border: #dc452d solid 2px;
 }
 
 .mongolfiert {
@@ -213,7 +211,6 @@ svg {
   background-position: center center;
   background-size: cover;
   position: relative;
-  border: #dc452d solid 2px;
 }
 
 .text-chapitre-3 {
@@ -225,6 +222,11 @@ svg {
 }
 
 /*chapitre 4*/
+#mouvement-bateau {
+  position: absolute;
+  bottom: 0;
+}
+
 #bateau {
   width: 100vw;
   height: 100vh;
@@ -232,14 +234,13 @@ svg {
   background-position: center center;
   background-size: cover;
   position: relative;
-  border: #dc452d solid 2px;
 }
 
 .bateau {
   position: absolute;
   width: 45vh;
   height: auto;
-  bottom: 25vh;
+  bottom: 15vh;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -271,7 +272,6 @@ svg {
   background-size: cover;
   background-position: center bottom;
   position: relative;
-  border: #dc452d solid 2px;
 }
 
 .sous-marin {
@@ -298,7 +298,6 @@ svg {
   background-position: center center;
   background-size: cover;
   position: relative;
-  border: #dc452d solid 2px;
 }
 
 .fusee {

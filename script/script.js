@@ -34,7 +34,6 @@ gsap.to(chapitre1, {
   scrollTrigger: {
     pin: true,
     scrub: true,
-
     start: "top top",
     end: "bottom 40%",
     trigger: chapitre1,
@@ -48,7 +47,7 @@ gsap.to(".car", {
     trigger: ".car",
     start: "50% 75%",
     end: "50% 25%",
-    scrub: 1,
+    scrub: 7,
   },
   x: "50vw",
   duration: 2,
@@ -81,7 +80,7 @@ gsap.to(".m1", {
     trigger: ".m1",
     start: "50% 75%",
     end: "50% 25%",
-    scrub: 1,
+    scrub: 7,
   },
   x: "100vw",
   duration: 1,
@@ -148,7 +147,6 @@ gsap.to(chapitre2, {
   scrollTrigger: {
     pin: true,
     scrub: true,
-    markers: true,
     start: "top top",
     end: "bottom 40%",
     trigger: chapitre3,
@@ -169,7 +167,7 @@ gsap.to(".m2", {
     trigger: ".m2",
     start: "50% 75%",
     end: "50% 25%",
-    scrub: 1,
+    scrub: 7,
   },
   x: "100vw",
   duration: 1,
@@ -182,11 +180,66 @@ gsap.to(chapitre2, {
   scrollTrigger: {
     pin: true,
     scrub: true,
-    markers: true,
     start: "top top",
     end: "bottom 40%",
     trigger: chapitre4,
   },
+});
+
+//animation bateau
+
+gsap.to(".bateau", {
+  motionPath: {
+    path: "#path-bateau",
+    align: "#path-bateau",
+    start: 0,
+    end: 0.55,
+    alignOrigin: [0.5, 0.5],
+  },
+  scrollTrigger: {
+    trigger: ".bateau",
+    start: "50% 75%",
+    end: "50% 25%",
+    scrub: 7,
+  },
+  x: "100vw",
+  duration: 1,
+});
+
+//animation vague-1
+
+gsap.from(".vague-1", {
+  repeat: -1,
+  x: "-15%",
+  duration: 9,
+  ease: "slow",
+  yoyo: true,
+});
+
+gsap.from(".vague-1", {
+  repeat: -1,
+  y: "6%",
+  duration: 5,
+  ease: "circ",
+  yoyo: true,
+});
+
+//animation vague-2
+
+gsap.from(".vague-2", {
+  repeat: -1,
+  x: "-7%",
+  duration: 6,
+  ease: "back",
+  yoyo: true,
+});
+
+gsap.from(".vague-2", {
+  repeat: -1,
+  y: "4%",
+  duration: 5,
+  ease: "back",
+  yoyo: true,
 });
 
 //animation-chapitre 5
@@ -196,11 +249,30 @@ gsap.to(chapitre2, {
   scrollTrigger: {
     pin: true,
     scrub: true,
-    markers: true,
     start: "top top",
     end: "bottom 40%",
     trigger: chapitre5,
   },
+});
+
+//animation sous-marin
+
+gsap.to(".sous-marin", {
+  motionPath: {
+    path: "#path-sous-marin",
+    align: "#path-sous-marin",
+    start: 0.25,
+    end: 0.7,
+    alignOrigin: [0.5, 0.5],
+  },
+  scrollTrigger: {
+    trigger: ".sous-marin",
+    start: "50% 75%",
+    end: "50% 25%",
+    scrub: 7,
+  },
+  x: "100vw",
+  duration: 1,
 });
 
 //animation-chapitre 6
@@ -210,7 +282,6 @@ gsap.to(chapitre2, {
   scrollTrigger: {
     pin: true,
     scrub: true,
-    markers: true,
     start: "top top",
     end: "bottom 40%",
     trigger: chapitre6,
