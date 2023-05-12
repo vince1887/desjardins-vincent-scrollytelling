@@ -1,3 +1,5 @@
+gsap.registerPlugin(ScrollTrigger);
+
 //animation call to action //
 gsap.from(".arrow", {
   repeat: -1,
@@ -26,6 +28,19 @@ function Scrolling() {
 window.addEventListener("scroll", Scrolling);
 
 //animation-chapitre 1
+let chapitre1 = document.querySelector("div#voiture");
+gsap.to(chapitre1, {
+  x: "100%",
+  scrollTrigger: {
+    pin: true,
+    pinSpacing: false,
+    scrub: true,
+    markers: true,
+    start: "top 25%",
+    end: "bottom 75%",
+    trigger: ".car",
+  },
+});
 
 //animation nuage-1
 
