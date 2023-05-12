@@ -23,3 +23,6 @@ les fichiers d'images que j'utilise sont principalement des png et ce sont des f
 ### Convertir mes images Png en WebP
 Prendre le dossier d'images et convertir toutes les images en WebP. Ensuite, changer les lien html pour etre sur que les images s'affichent.
 ### Résultat
+
+## Rapport projeet ScollyTelling après optimisation
+![Page Speed Insights - Rapport du 12 mai 2023, 03:12:50]([https://pagespeed.web.dev/analysis/https-vince1887-github-io-desjardins-vincent-scrollytelling/10lfxqnv94?form_factor=desktop](https://pagespeed.web.dev/analysis/https-vince1887-github-io-desjardins-vincent-scrollytelling/10lfxqnv94?form_factor=desktop))
