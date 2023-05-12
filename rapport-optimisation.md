@@ -15,3 +15,7 @@ Dans mon fichier styles.css, je dois ajouter "font-display: swap;" quand j'impor
 
 
 ## Problème #3
+### Diffusez des images aux formats nouvelle génération
+les fichiers d'images que j'utilise sont principalement des png et ce sont des fichiers qui sont de grande qualité et ne sont pas compressé. Il existes des fichiers plus compressé, donc plus performant pour le web, par example le format WebP. Ce format est de 25% à 34% plus petit que les fichiers de format png. En plus, le format WebP, comme le png, prend en charge la transparence.
+###
+sec
