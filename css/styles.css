@@ -13,21 +13,25 @@
 @font-face {
   src: url("../font/LoveYaLikeASisterSolid.ttf") format("truetype");
   font-family: "sister-solid";
+  font-display: swap;
 }
 
 @font-face {
   src: url("../font/LoveYaLikeASister.ttf") format("truetype");
   font-family: "sister";
+  font-display: swap;
 }
 
 @font-face {
   src: url("../font/Rubik-Italic-VariableFont_wght.ttf") format("truetype");
   font-family: "rubik-italic";
+  font-display: swap;
 }
 
 @font-face {
   src: url("../font/Rubik-VariableFont_wght.ttf") format("truetype");
   font-family: "rubik";
+  font-display: swap;
 }
 
 body {
