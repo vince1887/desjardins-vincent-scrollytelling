@@ -1,5 +1,5 @@
 # Rapport d'optimisation du projet ScrollyTelling
-![Page Speed Insights - Rapport du 12 mai 2023, 02:35:49](https://pagespeed.web.dev/analysis/https-vince1887-github-io-desjardins-vincent-scrollytelling/c1lvz3myhs?form_factor=mobile)
+[Page Speed Insights - Rapport du 12 mai 2023, 02:35:49](https://pagespeed.web.dev/analysis/https-vince1887-github-io-desjardins-vincent-scrollytelling/c1lvz3myhs?form_factor=mobile)
 
 ## Problème #1
 ### Évitez d'énormes charges utiles de réseau
@@ -25,4 +25,4 @@ Prendre le dossier d'images et convertir toutes les images en WebP. Ensuite, cha
 ### Résultat
 
 ## Rapport projeet ScollyTelling après optimisation
-![Page Speed Insights - Rapport du 12 mai 2023, 03:12:50]([https://pagespeed.web.dev/analysis/https-vince1887-github-io-desjardins-vincent-scrollytelling/10lfxqnv94?form_factor=desktop](https://pagespeed.web.dev/analysis/https-vince1887-github-io-desjardins-vincent-scrollytelling/10lfxqnv94?form_factor=desktop))
+[Page Speed Insights - Rapport du 12 mai 2023, 03:12:50]([https://pagespeed.web.dev/analysis/https-vince1887-github-io-desjardins-vincent-scrollytelling/10lfxqnv94?form_factor=desktop](https://pagespeed.web.dev/analysis/https-vince1887-github-io-desjardins-vincent-scrollytelling/10lfxqnv94?form_factor=desktop))
