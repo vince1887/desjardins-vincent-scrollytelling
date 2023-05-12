@@ -73,6 +73,8 @@ gsap.to(".m1", {
   motionPath: {
     path: "#path",
     align: "#path",
+    start: 1,
+    end: 0,
     alignOrigin: [0.5, 0.5],
   },
   scrollTrigger: {
@@ -81,8 +83,8 @@ gsap.to(".m1", {
     end: "50% 25%",
     scrub: 1,
   },
-  x: "50vw",
-  duration: 2,
+  x: "100vw",
+  duration: 1,
 });
 
 //animation nuage-1
@@ -151,6 +153,26 @@ gsap.to(chapitre2, {
     end: "bottom 40%",
     trigger: chapitre3,
   },
+});
+
+//animation mongolfier-plui
+
+gsap.to(".m2", {
+  motionPath: {
+    path: "#path2",
+    align: "#path2",
+    start: 0,
+    end: 1,
+    alignOrigin: [0.5, 0.5],
+  },
+  scrollTrigger: {
+    trigger: ".m2",
+    start: "50% 75%",
+    end: "50% 25%",
+    scrub: 1,
+  },
+  x: "100vw",
+  duration: 1,
 });
 
 //animation-chapitre 4

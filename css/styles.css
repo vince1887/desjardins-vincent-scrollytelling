@@ -153,15 +153,13 @@ p.concept {
 
 path {
   stroke-width: 2;
-  stroke: gray;
+  stroke: none;
 }
 
 svg {
   overflow: visible;
   height: 100%;
-
-  /* Fix Safari rendering bug */
-  transform: translateZ(0);
+  fill: none;
 }
 
 #mongolfiert {
